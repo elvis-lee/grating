@@ -124,7 +124,7 @@ display('step 5: SVM decoding done.');
 %% step 6: save results
 display('step 6: saving Timefreq data');
 %save( [results_location '/Fig0_Timefreq/mat/Timefreq_freq=' num2str(F)],'Timefreq_induced','Time','param');
-save( [results_location '/Fig1_Accuracy/mat/Accuracy_freq=' num2str(F)],'Accuracy');
+save( [results_location '/Fig1_Accuracy/mat/Induced_Accuracy_freq=' num2str(F)],'Accuracy');
 
 disp(['======Freq = ' num2str(F) ' is done!======' ]);
 end
